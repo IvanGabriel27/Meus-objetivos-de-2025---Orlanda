@@ -1,0 +1,12 @@
+:root{
+    --cor-de-fundo:#000000;
+    --verde:#9cfa05; 
+    --branco:#ffffff;
+    --botao-ativo:#fe0404;
+    --botao-inativo:#be9191;
+    --texto-fundo:#fff71b;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+}
