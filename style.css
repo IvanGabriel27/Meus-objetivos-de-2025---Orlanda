@@ -3,7 +3,7 @@
     --verde:#9cfa05; 
     --branco:#ffffff;
     --botao-ativo:#fe0404;
-    --botao-inativo:#be9191;
+    --botao-inativo:#f00d0d;
     --texto-fundo:#fff71b;
 }
 body{
@@ -29,5 +29,14 @@ body{
     font-family: 'Times New Roman', Times, serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
-    
+    display: flex;
+    justify-content: center;
+    padding: 1 em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom:  4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
+    border-top: none;
 }
